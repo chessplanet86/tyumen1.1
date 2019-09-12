@@ -1,0 +1,45 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    max-width: 50%;
+    border: 1px solid black;
+    visibility: hidden;
+    z-index: 2;
+}
+
+.modal__header {
+    width: 100%;
+    margin: 1%;
+}
+
+.modal__header__info {
+    width: 86%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.modal__header__close {
+    width: 10%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: end;
+}
+
+.modal__header__info h3 {
+    margin: 0;
+}
+
+.modal__header__close p {
+    width: 0;
+    margin: 0;
+}
+
+.modal__content {
+    margin: 1%;
+}
